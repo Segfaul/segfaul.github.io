@@ -1,20 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link type="text/css" rel="stylesheet" href="css/style.css">
-    <title>Shop</title>
+	<title>My Telegram Bot</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <div class="main">
-        <h1>Онлайн магазин</h1>
-        <img src="https://cdn-icons-png.flaticon.com/512/3595/3595455.png" alt="">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ipsum magni, moleastisas</p>
-        <button id="buy">Купить</button>
-    </div>
-    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+	<h1>Введите два числа:</h1>
+	<form action="/" method="POST">
+		<input type="number" name="number1" placeholder="Первое число" required>
+		<input type="number" name="number2" placeholder="Второе число" required>
+		<input type="submit" value="Посчитать">
+	</form>
 </body>
 </html>
